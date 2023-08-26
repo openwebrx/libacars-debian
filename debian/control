@@ -1,0 +1,19 @@
+Source: libacars
+Maintainer: Jakob Ketterl <jakob.ketterl@gmx.de>
+Section: libs
+Priority: optional
+Rules-Requires-Root: no
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 10), cmake, zlib1g-dev, libxml2-dev, libjansson-dev
+
+Package: libacars2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Library for decoding various ACARS message payloads
+ A library for decoding various ACARS message payloads
+
+Package: libacars-dev
+Architecture: any
+Depends: libacars2 (=${binary:Version}), ${misc:Depends}
+Description: development dependencies includes for libacars
+ A library for decoding various ACARS message payloads
