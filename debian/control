@@ -20,3 +20,9 @@ Architecture: any
 Depends: libacars2 (=${binary:Version}), ${misc:Depends}
 Description: development dependencies includes for libacars
  A library for decoding various ACARS message payloads
+
+Package: libacars-tools
+Architecture: any
+Depends: libacars2 (=${binary-version}), ${shlibs:Depends}, ${misc:Depends}
+Description: additional command line tools to decode acars messages
+ A library for decoding various ACARS message payloads
