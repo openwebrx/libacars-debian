@@ -1,5 +1,5 @@
-libacars (2.2.0-1) bullseye; urgency=low
+libacars (2.2.0-1) bullseye jammy; urgency=low
 
   * Initial upload
 
- -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 28 Aug 2023 16:13:00 +0000
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Mon, 28 Aug 2023 16:16:00 +0000
