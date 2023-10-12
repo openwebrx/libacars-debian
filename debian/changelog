@@ -1,8 +1,8 @@
-libacars (2.2.0-2) bullseye; urgency=low
+libacars (2.2.0-2) bullseye jammy; urgency=low
 
   * make included binaries available in new, separate package "libacars-tools"
 
- -- Jakob Ketterl <jakob.ketterl@gmx.de>  Wed, 30 Aug 2023 14:06:00 +0000
+ -- Jakob Ketterl <jakob.ketterl@gmx.de>  Wed, 30 Aug 2023 14:07:00 +0000
 
 libacars (2.2.0-1) bullseye jammy; urgency=low
 
